@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://exocytosis.netlify.com/"
 title = "Exocytosis"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
