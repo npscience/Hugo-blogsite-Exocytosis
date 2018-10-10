@@ -58,7 +58,7 @@ titleSeparator = "•"
 
 [params.social]
 # codepen = ""
-email = "naomipenfold@gmail.com"
+# email = ""
 # facebook = ""
 github = "npscience"
 instagram = "_npscience"
@@ -67,8 +67,8 @@ twitter = "npscience"
 # telegram = ""
 
 [params.social.config]
-platforms = ["github","twitter","instagram","email","linkedin"]
-# other platforms: "facebook","codepen","telegram"
+platforms = ["github","twitter","instagram","linkedin"]
+# other platforms: "facebook","email","codepen","telegram"
 
 [taxonomies]
 author = "authors"
@@ -78,11 +78,19 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
+[params.widgets]
+homepage = ["about"]
+sidebar = ["recent_posts","search","taxonomy_cloud"]
+footer = ["social_menu"]
+
 [[menu.main]]
-name = ["blog", "TIL"]
+name = ["about", "blog", "CV"]
 weight = -10
-identifier = ["blog","TIL"]
+identifier = ["about","blog","CV"]
 url = ""
+
+[params.sidebar]
+enable = true
 
 [languages]
 # edit this block for your own language
