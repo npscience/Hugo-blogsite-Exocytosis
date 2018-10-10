@@ -19,7 +19,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "A personal blogsite"
+description = "Musings in vesicles: some loaded, some released"
 title404 = "Oops! Page not found."
 
 [params.assets]
