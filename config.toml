@@ -58,17 +58,17 @@ titleSeparator = "•"
 
 [params.social]
 # codepen = ""
-# email = ""
+email = "naomipenfold@gmail.com"
 # facebook = ""
 github = "npscience"
-# instagram = ""
-# linkedin = ""
+instagram = "_npscience"
+linkedin = "naomipenfold"
 twitter = "npscience"
 # telegram = ""
 
 [params.social.config]
-platforms = ["github","twitter"]
-# other platforms: "facebook","instagram","email","codepen","linkedin","telegram"
+platforms = ["github","twitter","instagram","email","linkedin"]
+# other platforms: "facebook","codepen","telegram"
 
 [taxonomies]
 author = "authors"
