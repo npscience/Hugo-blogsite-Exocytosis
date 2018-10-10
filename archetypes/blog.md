@@ -2,6 +2,6 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-authors: ["npscience"]
+authors: ["naomipenfold"]
 menu: blog
 ---
